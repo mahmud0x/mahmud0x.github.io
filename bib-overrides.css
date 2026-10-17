@@ -1,0 +1,4 @@
+.loading{padding:23px 0;font:12px 'DM Mono',monospace}.loading code{color:var(--lime)}
+.publication-note{grid-column:2;margin:25px 0 0;font:11px 'DM Mono',monospace;color:var(--muted)}.publication-note a{color:var(--lime)}
+.paper-status{font:12px 'DM Mono',monospace;color:var(--muted)}
+@media(max-width:800px){.publication-note{grid-column:1}}
