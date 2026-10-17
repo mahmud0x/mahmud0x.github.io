@@ -31,5 +31,5 @@ if (publicationList) fetch('publications.bib').then(response => {
   if (!response.ok) throw new Error('Could not load publications.bib');
   return response.text();
 }).then(source => renderPublications(parseBibtex(source))).catch(() => {
-  publicationList.innerHTML = '<p class="loading">Publications could not be loaded. Please check publications.bib.</p>';
+  publicationList.innerHTML = '<p class="loading">Publication data unavailable.</p>';
 });
