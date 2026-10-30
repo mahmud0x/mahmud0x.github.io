@@ -1,0 +1,4 @@
+.intro-meta{font-size:14px;line-height:1.7;color:#666}
+.contact .eyebrow,.research-tags{display:none}
+.contact h2{font-size:0}
+.contact h2:after{content:'Contact';font:normal 40px/1.2 Georgia,serif;color:#222}
